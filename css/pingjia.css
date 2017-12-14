@@ -1,0 +1,344 @@
+/*
+* @Author: Administrator
+* @Date:   2017-12-10 10:49:19
+* @Last Modified by:   Administrator
+* @Last Modified time: 2017-12-10 23:59:00
+*/
+@import url("base.css");
+header{
+	width: 1	00%;
+	height: 1.42rem;
+    background: black;
+    opacity: 0.8;
+}
+header .fanhui{
+    width: 3.45rem;
+    margin-left: 0.15rem;
+    height: 0.34rem;
+    display: flex;
+    justify-content: space-between;
+}
+header .fanhui a{
+	display: block;
+}
+header .fanhui a .tou{
+	color: #fff;
+	font-size: 0.22rem;	
+	line-height: 0.34rem;
+}
+header .dianming{
+	width: 3.45rem;
+    margin-left: 0.15rem;
+    height: 0.65rem;
+    margin-top: 0.12rem;
+}
+header .dianming .photo{
+	float: left;
+	width: 0.65rem;
+	height: 0.65rem;
+}
+header .dianming .photo img{
+	width: 100%;
+	height: 100%;
+}
+header .dianming .info{
+	float: left;
+	margin-left: 0.1rem;
+	height: 100%;
+	width: 2.28rem;	
+	display: flex;
+	justify-content: space-between;
+	flex-direction: column;
+	color: #fff;
+}
+header .dianming .info .one{
+    font-size: 0.17rem;
+    font-weight: bold;
+}
+header .dianming .info .two{
+	font-size: 0.12rem;
+}
+header .dianming .info .three{
+	font-size: 0.12rem;
+}
+header .dibu{
+	display: block;
+	width: 3.45rem;
+    margin-left: 0.15rem;
+    margin-top: 0.08rem;
+    height: 0.14rem;
+    display: flex;
+    justify-content: space-between;
+}
+header .dibu .left{
+	width: 1.5rem;
+	height: 100%;
+}
+header .dibu .right{
+	width: 1.2rem;
+	height: 100%;
+	text-align: right;
+	color: #fff;
+	font-size: 0.12rem;	
+	margin-right: -0.08rem;	
+}
+header .dibu .left .jian{
+	width: 0.14rem;
+	height: 0.14rem;
+	background: #f07676;
+	border-radius: 0.02rem;
+	font-size: 0.12rem;
+	color: #fff;
+	line-height: 0.14rem;
+	float: left;
+}
+header .dibu .left .man{
+	float: left;
+	margin-left: 0.05rem;
+	width: 1.3rem;
+	height: 0.14rem;
+	font-size: 0.12rem;
+	color: #fff;
+}
+header .dibu .right .youjiantou{
+	font-size: 0.06rem;
+	color: #fff;
+}
+.title{
+	width: 100%;
+	height: 0.39rem;
+	border-bottom: 0.01rem solid #ededed;
+	background: #fff;
+}
+.title ul{
+	width: 100%;
+	height: 0.4rem;
+	display: flex;
+	justify-content: space-between;
+}
+.title ul li{
+	width: 33.33%;
+	height: 0.4rem;
+	text-align: center;
+	line-height: 0.4rem;
+	color: #666;
+	font-size: 0.14rem;
+	position: relative;
+}
+.title ul li a{
+	text-align: center;
+	line-height: 0.4rem;
+	color: #666;
+	font-size: 0.14rem;
+}
+.title ul .blue{
+	color: #3894e8;
+	font-weight: bold;
+}
+.title ul li .xiaxuankuang{
+	background: #3894e8;
+	width: 0.28rem;
+	height: 0.04rem;
+	position: absolute;
+	top: 0.34rem;
+	margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 0;
+
+}
+.zonghe{
+	width: 100%;
+	height: 0.77rem;
+	background: #fff;
+	padding-top: 0.19rem;
+}
+.zonghe .left{
+	width: 1.19rem;
+	height: 0.58rem;
+	border-right: 0.01rem solid #f0f0f0;
+	display: flex;
+	justify-content: space-between;
+	flex-direction: column;
+	float: left;
+}
+.zonghe .left .pingfen{
+	width: 100%;
+	height: auto;
+	color: #ff6000;
+	font-size: 0.2rem;
+	text-align: center;
+	font-weight: bold;
+}
+.zonghe .left .zhpj{
+	width: 100%;
+	height: auto;
+	color: #666;
+	font-size: 0.11rem;
+	text-align: center;
+}
+.zonghe .left .duibi{
+	width: 100%;
+	height: auto;
+	color: #999;
+	font-size: 0.08rem;
+	text-align: center;
+}
+.zonghe .right{
+	width: 2.3rem;
+	height: 0.58rem;
+	display: flex;
+	justify-content: space-between;
+	flex-direction: column;
+	float: left;
+	margin-left: 0.25rem;
+}
+.zonghe .right .td{
+    width: 100%;
+    height: auto;
+    font-size: 0.11rem;
+    color: #666;
+    text-align: left;
+}
+.zonghe .right .td .xing{
+    color: #ffc700;
+    font-size: 0.08rem;
+}
+.zonghe .right .td span{
+    color: #ff6600;
+    font-size: 0.11rem;
+}
+.pingjia{
+	width: 100%;
+	height: auto;
+	background: #fff;
+    margin-top: 0.1rem;
+}
+.pingjia .manyi{
+	width: 3.48rem;
+	height: 0.41rem;
+	padding-top: 0.14rem;
+	padding-left: 0.03rem;
+	margin-left: 0.12rem;
+	border-bottom: 0.01rem solid #f0f0f0;
+    
+}
+.pingjia .manyi .qb{
+	display: block;
+	width:0.72rem;
+	height: 0.28rem;
+	background: #0097ff;
+	color: #fff;
+	text-align: center;
+	line-height: 0.28rem;
+	border-radius: 0.02rem;
+	font-size: 0.11rem;
+	float: left;
+}
+.pingjia .manyi .my{
+	display: block;
+	width:0.71rem;
+	height: 0.28rem;
+	background: #ebf5ff;
+	color: #6d7885;
+	text-align: center;
+	line-height: 0.28rem;
+	border-radius: 0.02rem;
+	font-size: 0.11rem;
+	margin-left: 0.06rem;
+	float: left;
+}
+.pingjia .manyi .bmy{
+	display: block;
+	width:0.7rem;
+	height: 0.28rem;
+	background: #f5f5f5;
+	color: #aaaaaa;
+	text-align: center;
+	line-height: 0.28rem;
+	border-radius: 0.02rem;
+	font-size: 0.11rem;
+	margin-left: 0.06rem;
+	float: left;
+}
+.pingjia .manyi .yt{
+	display: block;
+	width:0.64rem;
+	height: 0.28rem;
+	background: #ebf5ff;
+	color: #6d7885;
+	text-align: center;
+	line-height: 0.28rem;
+	border-radius: 0.02rem;
+	font-size: 0.11rem;
+	margin-left: 0.06rem;
+	float: left;
+}
+.pingjia .yhpj{
+	width: 3.48rem;
+	height: auto;
+}
+.pingjia .yhpj ul{
+	width: 3.48rem;
+	height: auto;
+}
+.pingjia .yhpj ul li{
+	width: 3.48rem;
+	height: auto;
+	padding-top: 0.15rem;
+	margin-left: 0.12rem;
+	border-bottom: 0.01rem solid #f0f0f0;
+}
+.pingjia .yhpj ul li .yhname{
+	width: 100%;
+	height: 0.3rem;
+}
+.pingjia .yhpj ul li .yhname .yhtx{
+	width: 0.3rem;
+	height: 0.3rem;
+	float: left;
+}
+.pingjia .yhpj ul li .yhname .yhtx img{
+	width: 0.3rem;
+	height: 0.3rem;
+}
+.pingjia .yhpj ul li .yhname .name{
+	width: 2.3rem;
+	height: 0.3rem;
+	float: left;
+	margin-left: 0.15rem;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.pingjia .yhpj ul li .yhname .name .info{
+	width: 100%;
+	height: auto;
+	font-size: 0.13rem;
+	clear: #404040;
+
+}
+.pingjia .yhpj ul li .yhname .name .info span{
+	font-size: 0.1rem;
+	color: #bebebe;
+}
+.pingjia .yhpj ul li .yhname .name .xing{
+	color: #ffd100;
+	font-size: 0.1rem;
+}
+.pingjia .yhpj ul li p{
+	margin-left: 0.45rem;
+	color: #575757;
+	font-size: 0.14rem;
+	margin-top: 0.1rem;
+}
+.pingjia .yhpj ul li .zhaopian{
+	width: 1rem;
+	height: 1.03rem;
+	margin-left: 0.62rem;
+}
+.pingjia .yhpj ul li .zhaopian img{
+	width: 0.71rem;
+	height: 0.71rem;
+	margin-top: 0.14rem;
+}

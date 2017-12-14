@@ -1,0 +1,355 @@
+/*
+* @Author: Administrator
+* @Date:   2017-12-10 10:49:19
+* @Last Modified by:   Administrator
+* @Last Modified time: 2017-12-10 22:42:02
+*/
+@import url("base.css");
+header{
+	width: 1	00%;
+	height: 1.42rem;
+    background: black;
+    opacity: 0.8;
+}
+header .fanhui{
+    width: 3.45rem;
+    margin-left: 0.15rem;
+    height: 0.34rem;
+    display: flex;
+    justify-content: space-between;
+}
+header .fanhui a{
+	display: block;
+}
+header .fanhui a .tou{
+	color: #fff;
+	font-size: 0.22rem;	
+	line-height: 0.34rem;
+}
+header .dianming{
+	width: 3.45rem;
+    margin-left: 0.15rem;
+    height: 0.65rem;
+    margin-top: 0.12rem;
+}
+header .dianming .photo{
+	float: left;
+	width: 0.65rem;
+	height: 0.65rem;
+}
+header .dianming .photo img{
+	width: 100%;
+	height: 100%;
+}
+header .dianming .info{
+	float: left;
+	margin-left: 0.1rem;
+	height: 100%;
+	width: 2.28rem;	
+	display: flex;
+	justify-content: space-between;
+	flex-direction: column;
+	color: #fff;
+}
+header .dianming .info .one{
+    font-size: 0.17rem;
+    font-weight: bold;
+}
+header .dianming .info .two{
+	font-size: 0.12rem;
+}
+header .dianming .info .three{
+	font-size: 0.12rem;
+}
+header .dibu{
+	display: block;
+	width: 3.45rem;
+    margin-left: 0.15rem;
+    margin-top: 0.08rem;
+    height: 0.14rem;
+    display: flex;
+    justify-content: space-between;
+}
+header .dibu .left{
+	width: 1.5rem;
+	height: 100%;
+}
+header .dibu .right{
+	width: 1.2rem;
+	height: 100%;
+	text-align: right;
+	color: #fff;
+	font-size: 0.12rem;	
+	margin-right: -0.08rem;	
+}
+header .dibu .left .jian{
+	width: 0.14rem;
+	height: 0.14rem;
+	background: #f07676;
+	border-radius: 0.02rem;
+	font-size: 0.12rem;
+	color: #fff;
+	line-height: 0.14rem;
+	float: left;
+}
+header .dibu .left .man{
+	float: left;
+	margin-left: 0.05rem;
+	width: 1.3rem;
+	height: 0.14rem;
+	font-size: 0.12rem;
+	color: #fff;
+}
+header .dibu .right .youjiantou{
+	font-size: 0.06rem;
+	color: #fff;
+}
+.title{
+	width: 100%;
+	height: 0.39rem;
+	border-bottom: 0.01rem solid #ededed;
+	background: #fff;
+}
+.title ul{
+	width: 100%;
+	height: 0.4rem;
+	display: flex;
+	justify-content: space-between;
+}
+.title ul li{
+	width: 33.33%;
+	height: 0.4rem;
+	text-align: center;
+	line-height: 0.4rem;
+	color: #666;
+	font-size: 0.14rem;
+	position: relative;
+}
+.title ul li a{
+	text-align: center;
+	line-height: 0.4rem;
+	color: #666;
+	font-size: 0.14rem;
+}
+.title ul .blue{
+	color: #3894e8;
+	font-weight: bold;
+}
+.title ul li .xiaxuankuang{
+	background: #3894e8;
+	width: 0.28rem;
+	height: 0.04rem;
+	position: absolute;
+	top: 0.34rem;
+	margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 0;
+
+}
+.list{
+	width: 100%;
+	height: auto;
+}
+.list .left{
+	float: left;
+	width: 0.77rem;
+	height: auto;
+}
+.list .left ul{
+	width: 0.77rem;
+	height: auto;
+}
+.list .left ul li{
+	width: 0.7rem;
+	padding-left: 0.07rem;
+	height: 0.5rem;
+	border-bottom: 0.01rem solid #f2f2f2;
+	background: #f8f8f8；
+}
+.list .left ul li a{
+	width: 0.77rem;
+	height: 0.5rem;
+	border-bottom: 0.01rem solid #f2f2f2;
+	display: block;
+	font-size: 0.14rem;
+	color: #686868;
+	text-align: left;
+	line-height: 0.5rem;
+}
+.list .left ul li .huo{
+	color: #fe3e0b;
+	font-size: 0.14rem;
+}
+.list .left ul li:first-child{
+	background: #fff;
+}
+.list .right{
+	width: 2.88rem;
+	padding-left: 0.1rem;
+	height: auto;
+	float: right;
+	background: #fff;
+	margin-bottom: 0.68rem;
+}
+.list .right .leibie{
+    width: 100%;
+    height: 0.39rem;
+    border-bottom: 0.01rem solid #f9f9f9;
+    font-size: 0.1rem;
+    color: #a5a5a5;
+}
+.list .right .leibie span{
+	color: #6f6f6f;
+	font-size: 0.14rem;
+	line-height: 0.4rem;
+}
+.list .right ul{
+	width: 100%;
+	height: auto;
+}
+.list .right ul li{
+	width: 100%;
+	height: 1.15rem;
+	position: relative;
+}
+.list .right ul li a{
+	display: block;
+	width: 100%;
+	height: 1.04rem;
+	padding-top: 0.1rem;
+	border-bottom: 0.01rem solid #f7f7f7;
+}
+.list .right ul li a .photo{
+	width: 0.76rem;
+	height: 0.76rem;
+	float: left;
+}
+.list .right ul li a .photo img{
+    width: 100%;
+    height: 100%;
+}
+.list .right ul li a .wenzi{
+	width: 2.02rem;
+	height: 0.74rem;
+	padding-top: 0.02rem;
+	float: left;
+	margin-left: 0.1rem;
+	display: flex;
+	justify-content: space-between;
+	flex-direction: column;
+}
+.list .right ul li a .wenzi .name{
+	width: 100%;
+	height: auto;
+	font-size: 0.15rem;
+	color: #303030;
+	font-weight: bold;
+}
+.list .right ul li a .wenzi .xiangqing{
+	width: 100%;
+	height: auto;
+	font-size: 0.09rem;
+	color: #9d9d9d;
+}
+.list .right ul li a .wenzi .xiaoliang{
+	width: 100%;
+	height: auto;
+	font-size: 0.11rem;
+	color: #7a7a7a;
+}
+.list .right ul li a .wenzi .jiage{
+	width: 100%;
+	height: auto;
+	font-size: 0.09rem;
+	color: #ff5400;
+}
+.list .right ul li a .wenzi .jiage span{
+	font-size: 0.13rem;
+}
+.list .right ul li .jia{
+	width: 0.2rem;
+	height: 0.2rem;
+	border-radius: 50%;
+	background: #2395ff;
+	position: absolute;
+	right: 0.14rem;
+	bottom: 0.22rem;
+	display: block;
+	color: #fff;
+	line-height: 0.18rem;
+	text-align: center;
+	font-size: 0.18rem;
+}
+footer{
+	width: 100%;
+	height: 0.66rem;
+	position: fixed;
+	border-top: 1px solid #fcf3c2;
+	border-bottom: 1px solid #88888a;
+	z-index: 999;
+	bottom: 0;
+	background: #fcf3c2;
+}
+footer .shang{
+	width: 100%;
+	height: 0.19rem;
+	color: #2b2c2e;
+	font-size: 0.09rem;
+	text-align: center;
+	line-height: 0.19rem;
+}
+footer .xia{
+	width: 2.73rem;
+	height: 0.47rem;
+	border-top: 1px solid #88888a;
+	border-bottom: 1px solid #88888a;
+	background: #505052;
+	display: flex;
+	justify-content: space-between;
+	padding-right: 0.23rem;
+	padding-left: 0.79rem;
+}
+footer .xia .left{
+    width: 1.5rem;
+    height: 0.49rem;
+}
+footer .xia .left .jiage{
+	width: 100%;
+	height: 0.14rem;
+	margin-top: 0.13rem;
+	color: #fff;
+	font-size: 0.14rem;
+}
+footer .xia .left .peisong{
+	width: 100%;
+	height: 0.18rem;
+	color: #979796;
+	font-size: 0.1rem;
+	line-height: 0.18rem;
+}
+footer .xia .right{
+    width: 1rem;
+    height: 0.49rem;
+    color: #fff;
+	font-size: 0.14rem;
+	text-align: right;
+	line-height: 0.49rem;
+}
+footer .gouwuche{
+	width: 0.4rem;
+	height: 0.4rem;
+	border: 0.05rem solid #444444;
+	background: #363636;
+    position: absolute;
+    top: 0.09rem;
+    left: 0.12rem;
+    border-radius: 50%;
+    	text-align: center;
+}
+footer .gouwuche .che{
+	font-size: 0.22rem;
+	color: #616165;
+
+	line-height: 0.4rem;
+}

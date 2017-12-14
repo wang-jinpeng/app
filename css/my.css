@@ -1,0 +1,138 @@
+/*
+* @Author: Administrator
+* @Date:   2017-12-07 19:01:08
+* @Last Modified by:   Administrator
+* @Last Modified time: 2017-12-08 00:17:27
+*/
+@import url("base.css");
+header{
+	width:100%;
+	height:0.44rem;
+	position: relative;
+	background-image: -webkit-linear-gradient(left,#00aaff,#0085ff)
+}
+header .left{
+	color: #fff;
+	font-size: 0.24rem;
+	line-height: 0.44rem;
+	margin-left: 0.1rem;
+}
+header span{
+	color: #fff;
+	position: absolute;
+	font-size: 0.18rem;
+	line-height: 0.44rem;
+	font-weight: bold;
+	top: 0;
+	left:1.52rem;
+}
+.beijing{
+	width: 100%;
+	height: 6.23rem;
+}
+.touxiang{
+	width: 100%;
+	height: 0.7rem;
+	background: #fff;
+	margin-top: 0.1rem;
+	display: block;
+}
+.touxiang .biankuang{
+	width: 3.45rem;
+	height: 0.69rem;
+	border-bottom: 1px solid #eee;
+	margin-left: 0.15rem;
+	padding-right: 0.15rem;
+
+}
+.touxiang .biankuang .left{
+	float: left;
+	display: block;
+	width: auto;
+	height: 100%;
+	color: #1e1e1e;
+	font-size: 0.16rem;
+	line-height: 0.7rem;
+}
+.touxiang .biankuang .right{
+	float: right;
+	width: auto;
+	height: 100%;
+	line-height: 0.69rem;
+}
+.touxiang .biankuang .right img{
+	width: 0.5rem;
+	height: 0.5rem;
+	border-radius: 50%;
+	margin-top: 0.1rem;
+	margin-right: 0.15rem;
+}
+.yonghuming{
+		width: 100%;
+	height: 0.5rem;
+	background: #fff;
+	display: block;
+	
+}
+.last{
+ border-bottom: 1px solid #eee;
+}
+.biankuang{
+	width: 3.3rem;
+	height: 0.49rem;
+	border-bottom: 1px solid #eee;
+	margin-left: 0.15rem;
+	padding-right: 0.3rem;
+	position: relative;
+}
+.yonghuming .zh{
+	width: 2.9rem;
+	float: right;
+}
+.biankuang .left{
+	float: left;
+	display: block;
+	width: auto;
+	height: 100%;
+	color: #1e1e1e;
+	font-size: 0.16rem;
+	line-height: 0.5rem;
+}
+.biankuang .right i{
+	font-size: 0.16rem;
+	color: #b0b0b0;
+	position: absolute;	
+	right: 0.15rem;
+}
+.biankuang .right{
+	color: #8d8d8d;
+	font-size: 0.12rem;
+	text-align: right;
+    line-height: 0.5rem;
+}
+.biankuang .cu{
+	color: #008bff;
+	font-size: 0.16rem;
+}
+.zhanghaobangding{
+	width: 3.6rem;
+	height: 0.36rem;
+	font-size: 0.16rem;
+	color: #8f8f8f;
+	line-height: 0.5rem;
+    margin-left: 0.15rem;
+}
+.yonghuming .zuo{
+	font-size: 0.18rem;
+	color: #008bff;
+}
+.icon-left{
+	float: left;
+    width: 0.4rem;
+    height: 0.5rem;
+    text-align: right;
+    line-height: 0.5rem;
+}
+.shangjianju{
+	margin-top: 0.1rem;
+}

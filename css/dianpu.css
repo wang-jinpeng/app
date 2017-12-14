@@ -1,0 +1,260 @@
+/*
+* @Author: Administrator
+* @Date:   2017-12-10 10:49:19
+* @Last Modified by:   Administrator
+* @Last Modified time: 2017-12-11 01:20:13
+*/
+@import url("base.css");
+header{
+	width: 1	00%;
+	height: 1.42rem;
+    background: black;
+    opacity: 0.8;
+}
+header .fanhui{
+    width: 3.45rem;
+    margin-left: 0.15rem;
+    height: 0.34rem;
+    display: flex;
+    justify-content: space-between;
+}
+header .fanhui a{
+	display: block;
+}
+header .fanhui a .tou{
+	color: #fff;
+	font-size: 0.22rem;	
+	line-height: 0.34rem;
+}
+header .dianming{
+	width: 3.45rem;
+    margin-left: 0.15rem;
+    height: 0.65rem;
+    margin-top: 0.12rem;
+}
+header .dianming .photo{
+	float: left;
+	width: 0.65rem;
+	height: 0.65rem;
+}
+header .dianming .photo img{
+	width: 100%;
+	height: 100%;
+}
+header .dianming .info{
+	float: left;
+	margin-left: 0.1rem;
+	height: 100%;
+	width: 2.28rem;	
+	display: flex;
+	justify-content: space-between;
+	flex-direction: column;
+	color: #fff;
+}
+header .dianming .info .one{
+    font-size: 0.17rem;
+    font-weight: bold;
+}
+header .dianming .info .two{
+	font-size: 0.12rem;
+}
+header .dianming .info .three{
+	font-size: 0.12rem;
+}
+header .dibu{
+	display: block;
+	width: 3.45rem;
+    margin-left: 0.15rem;
+    margin-top: 0.08rem;
+    height: 0.14rem;
+    display: flex;
+    justify-content: space-between;
+}
+header .dibu .left{
+	width: 1.5rem;
+	height: 100%;
+}
+header .dibu .right{
+	width: 1.2rem;
+	height: 100%;
+	text-align: right;
+	color: #fff;
+	font-size: 0.12rem;	
+	margin-right: -0.08rem;	
+}
+header .dibu .left .jian{
+	width: 0.14rem;
+	height: 0.14rem;
+	background: #f07676;
+	border-radius: 0.02rem;
+	font-size: 0.12rem;
+	color: #fff;
+	line-height: 0.14rem;
+	float: left;
+}
+header .dibu .left .man{
+	float: left;
+	margin-left: 0.05rem;
+	width: 1.3rem;
+	height: 0.14rem;
+	font-size: 0.12rem;
+	color: #fff;
+}
+header .dibu .right .youjiantou{
+	font-size: 0.06rem;
+	color: #fff;
+}
+.title{
+	width: 100%;
+	height: 0.39rem;
+	border-bottom: 0.01rem solid #ededed;
+	background: #fff;
+}
+.title ul{
+	width: 100%;
+	height: 0.4rem;
+	display: flex;
+	justify-content: space-between;
+}
+.title ul li{
+	width: 33.33%;
+	height: 0.4rem;
+	text-align: center;
+	line-height: 0.4rem;
+	color: #666;
+	font-size: 0.14rem;
+	position: relative;
+}
+.title ul li a{
+	text-align: center;
+	line-height: 0.4rem;
+	color: #666;
+	font-size: 0.14rem;
+}
+.title ul .blue{
+	color: #3894e8;
+	font-weight: bold;
+}
+.title ul li .xiaxuankuang{
+	background: #3894e8;
+	width: 0.28rem;
+	height: 0.04rem;
+	position: absolute;
+	top: 0.34rem;
+	margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 0;
+
+}
+.kuangjia{
+	width: 3.75rem;
+	height: auto;
+	padding-top: 0.2rem;
+	padding-bottom: 0.15rem;
+	background: #fff;
+	margin-top: 0.1rem;
+}
+.kuangjia1{
+	margin-top: 0rem;
+}
+.kuangjia .name{
+	width: 3.6rem;
+	height: auto;
+	font-size: 0.15rem;
+	background: #fff;
+	color: #000;
+	padding-left: 0.15rem;
+	font-weight: bold;
+}
+.kuangjia .psxx{
+	margin-top: 0.05rem;
+    width: 3.6rem;
+    height: auto;
+    padding-left: 0.15rem;
+    display: flex;
+	justify-content: space-between;
+	flex-direction: column;
+}
+.kuangjia .psxx .wenzi{
+	font-size: 0.12rem;
+	color: #666;
+	margin-top: 0.08rem;
+}
+.psxx .wenzi .jian{
+	display: inline-block;
+	width: 0.14rem;
+	height: 0.14rem;
+    background: #f07373;
+    color: #fff;
+    font-size: 0.12rem;
+    text-align: center;
+    line-height: 0.14rem;
+    border-radius: 0.02rem;
+}
+
+.psxx .wenzi .shou{
+	display: inline-block;
+	width: 0.14rem;
+	height: 0.14rem;
+    background: #70bc46;
+    color: #fff;
+    font-size: 0.12rem;
+    text-align: center;
+    line-height: 0.14rem;
+    border-radius: 0.02rem;
+}
+.psxx .wenzi .bao{
+	display: inline-block;
+	width: 0.13rem;
+	height: 0.13rem;
+	border: 0.01rem solid #ccc;
+    color: #ccc;
+    font-size: 0.12rem;
+    text-align: center;
+    line-height: 0.14rem;
+    border-radius: 0.02rem;
+}
+.kuangjia .psxx .hd{
+	margin-top: 0.02rem;
+}
+.kuangjia .fw{
+	margin-top: 0.15rem;
+}
+.kuangjia .sjsj{
+	margin-top: 0.1rem;
+	margin-left: 0.15rem;
+	width: 0.78rem;
+	height: 0.78rem;
+    float: left;
+
+}
+.kuangjia .sjsj img{
+	width: 0.78rem;
+	height: 0.78rem;
+}
+.sj{
+	height: 1.05rem;
+}
+.kuangjia .psxx .sjxx{
+	width: 100%;
+	height: 0.45rem;
+	border-top: 0.01rem solid #f0f0f0;
+	font-size: 0.12rem;
+	clear: #333;
+	font-weight: bold;
+	line-height: 0.46rem;
+}
+.kuangjia .psxx .sjxx span{
+	display: block;
+	float: right;
+	font-size: 0.1rem;
+	color: #666;
+	margin-right: 0.15rem;
+	font-weight: normal;
+}
+.kuangjia .psxx .sjxx:first-child{
+	border-top: none;
+	font-weight: normal;
+	color: #666;
+}

@@ -1,0 +1,220 @@
+/*
+* @Author: Administrator
+* @Date:   2017-12-10 11:04:22
+* @Last Modified by:   Administrator
+* @Last Modified time: 2017-12-11 14:00:15
+*/
+@import url("base.css");
+.kuang{
+	width: 100%;
+	height: 3.5rem;
+	position: relative;
+}
+.kuang	a{
+	display: block;
+	position: absolute;
+	top: 0.15rem;
+	left: 0.15rem;
+
+}
+.kuang	a .fh{
+    color: #fff;
+}
+.yi-tu{
+	width: 3.75rem;
+	height: 3.5rem;
+}
+
+.san{
+	width: 100%;
+	height: 0.99rem;
+	border-bottom: 0.01rem solid #f5f5f5;
+	background: #fff;
+}
+.san-y{
+	margin-left: 0.15rem;
+	font-size: 0.14rem;
+	height: 0.36rem;
+	line-height: 0.36rem;
+}
+.san-er{
+    font-size: 0.12rem;
+    color: #666;
+    margin-left: 0.15rem;
+    height: 0.3rem;
+}
+.san-jiage{
+	font-size: 0.18rem;
+	color: #f24e42;
+	margin-left: 0.15rem;
+}
+.jiage{
+	font-size: 0.18rem;
+	color: #f24e42;
+}
+footer{
+	width: 100%;
+	height: 0.66rem;
+	position: fixed;
+	border-top: 1px solid #fcf3c2;
+	border-bottom: 1px solid #88888a;
+	z-index: 999;
+	bottom: 0;
+	background: #fcf3c2;
+}
+footer .shang{
+	width: 100%;
+	height: 0.19rem;
+	color: #2b2c2e;
+	font-size: 0.09rem;
+	text-align: center;
+	line-height: 0.19rem;
+}
+footer .xia{
+	width: 2.73rem;
+	height: 0.47rem;
+	border-top: 1px solid #88888a;
+	border-bottom: 1px solid #88888a;
+	background: #505052;
+	display: flex;
+	justify-content: space-between;
+	padding-right: 0.23rem;
+	padding-left: 0.79rem;
+}
+footer .xia .left{
+    width: 1.5rem;
+    height: 0.49rem;
+}
+footer .xia .left .jiage{
+	width: 100%;
+	height: 0.14rem;
+	margin-top: 0.13rem;
+	color: #fff;
+	font-size: 0.14rem;
+}
+footer .xia .left .peisong{
+	width: 100%;
+	height: 0.18rem;
+	color: #979796;
+	font-size: 0.1rem;
+	line-height: 0.18rem;
+}
+footer .xia .right{
+    width: 1rem;
+    height: 0.49rem;
+    color: #fff;
+	font-size: 0.14rem;
+	text-align: right;
+	line-height: 0.49rem;
+}
+footer .gouwuche{
+	width: 0.4rem;
+	height: 0.4rem;
+	border: 0.05rem solid #444444;
+	background: #363636;
+    position: absolute;
+    top: 0.09rem;
+    left: 0.12rem;
+    border-radius: 50%;
+    	text-align: center;
+}
+footer .gouwuche .che{
+	font-size: 0.22rem;
+	color: #616165;
+
+	line-height: 0.4rem;
+}
+.pingjia{
+	width: 100%;
+	height: auto;
+	background: #fff;
+    margin-top: 0.1rem;
+}
+.pingjia .manyi{
+	width: 3.45rem;
+	height: 0.4rem;
+	line-height: 0.4rem;
+    padding: 0 0.15rem;
+	border-bottom: 0.01rem solid #f0f0f0;
+}
+.pingjia .manyi span{
+	font-size: 0.1rem;
+}
+.pingjia .manyi .shumu{
+	width: auto;
+	height: 0.4rem;
+	float: right;
+	font-size: 0.1rem;
+	line-height: 0.4rem;
+	color: #575757;
+}
+.pingjia .yhpj{
+	width: 3.48rem;
+	height: auto;
+	margin-bottom: 0.66rem;
+}
+.pingjia .yhpj ul{
+	width: 3.48rem;
+	height: auto;
+}
+.pingjia .yhpj ul li{
+	width: 3.48rem;
+	height: auto;
+	padding-top: 0.15rem;
+	margin-left: 0.12rem;
+	border-bottom: 0.01rem solid #f0f0f0;
+}
+.pingjia .yhpj ul li .yhname{
+	width: 100%;
+	height: 0.3rem;
+}
+.pingjia .yhpj ul li .yhname .yhtx{
+	width: 0.3rem;
+	height: 0.3rem;
+	float: left;
+}
+.pingjia .yhpj ul li .yhname .yhtx img{
+	width: 0.3rem;
+	height: 0.3rem;
+}
+.pingjia .yhpj ul li .yhname .name{
+	width: 2.3rem;
+	height: 0.3rem;
+	float: left;
+	margin-left: 0.15rem;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.pingjia .yhpj ul li .yhname .name .info{
+	width: 100%;
+	height: auto;
+	font-size: 0.13rem;
+	clear: #404040;
+
+}
+.pingjia .yhpj ul li .yhname .name .info span{
+	font-size: 0.1rem;
+	color: #bebebe;
+}
+.pingjia .yhpj ul li .yhname .name .xing{
+	color: #ffd100;
+	font-size: 0.1rem;
+}
+.pingjia .yhpj ul li p{
+	margin-left: 0.45rem;
+	color: #575757;
+	font-size: 0.14rem;
+	margin-top: 0.1rem;
+	padding-bottom: 0.2rem;
+}
+.pingjia .yhpj ul li .zhaopian{
+	width: 1rem;
+	height: 1.03rem;
+	margin-left: 0.62rem;
+}
+.pingjia .yhpj ul li .zhaopian img{
+	width: 0.71rem;
+	height: 0.71rem;
+	margin-top: 0.14rem;
+}
